@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chessboard</title>
+    <style>
+        .chessboard {
+            display: grid;
+            grid-template-columns: repeat(8, 50px);
+            grid-template-rows: repeat(8, 50px);
+            gap: 1px;
+        }
+
+        .chessboard div {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+        }
+
+        .even {
+            background-color: #f0d9b5;
+        }
+
+        .odd {
+            background-color: #b58863;
+        }
+    </style>
+</head>
+<body>
+    <div class="chessboard">
+        <!-- Create the chessboard squares using div elements -->
+        <!-- You can add the appropriate chess pieces using JavaScript -->
+        <!-- Here, we're just creating an empty board -->
+        <!-- You can add the chess pieces dynamically as needed -->
+        <!-- For example, use <div class="piece">♖</div> for a white rook -->
+        <!-- and <div class="piece">♜</div> for a black rook -->
+        <!-- Add the pieces' classes and styles based on your requirements -->
+        <!-- e.g., .piece { color: white; } for white pieces -->
+        <!--       .piece { color: black; } for black pieces -->
+        <!--       .piece { font-size: 32px; } for larger pieces -->
+    </div>
+</body>
+</html>
